@@ -1,9 +1,9 @@
 # Example2 of init and self in python
 
-class Rectangle:
+class Rectangle:# created an object Rectangle
     def __init__(self,height,width):
         self.height = height
-        self.width=width
+        self.width = width
 
 rect1 = Rectangle(20,60)
 rect2 = Rectangle(50,40)
